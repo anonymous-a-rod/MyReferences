@@ -27,7 +27,13 @@ const Review = () => {
   }
 
   const surpriseMe = () => {
-    const randomNumber = Math.floor(Math.random()*(people.length))
+    let randomNumber = Math.floor(Math.random()*(people.length))
+    if(randomNumber === index){
+      randomNumber++;
+    }
+    if(randomNumber >= people.length){
+      randomNumber = 0;
+    }
     setIndex(randomNumber);
   }
 
