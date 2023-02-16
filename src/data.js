@@ -9,6 +9,15 @@ const reviews = [
       "Aaron has always been an extremely hard worker and learns at an astonishing rate. He would be a great asset to any employer.",
   },
   {
+    id: 7,
+    name: 'Daniel Shamburger',
+    job: 'Software Engineer',
+    image:
+      '/daniel.jpg',
+    text:
+      "Aaron is a quick and motivated learner, and his education and experience in civil engineering have greatly contributed to his technical abilities. It has been awesome to see how quickly he grasped general programming concepts and web development skills.",
+  },
+  {
     id: 2,
     name: 'Wayne Cao',
     job: 'Owner & Founder',
