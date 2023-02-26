@@ -62,6 +62,15 @@ const reviews = [
     text:
       "I was consistently impressed by Aaron's technical skills and ability to learn new technologies quickly. He has a strong foundation in a variety of programming languages, including JavaScript, Python, and HTML/CSS, and is always eager to expand his skillset.",
   },
+  {
+    id: 7,
+    name: 'kelsey jackson',
+    job: 'Junior web developer',
+    image:
+      '/kelsey.jpg',
+    text:
+      "Aaron has great coding skills and a deep understanding of programming languages. In addition to his coding skills, Aaron is also very friendly and easy to work with.",
+  },
 ];
 
 export default reviews;
